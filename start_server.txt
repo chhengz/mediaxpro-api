@@ -1,0 +1,11 @@
+uvicorn main:app --host 0.0.0.0 --port 8000
+uvicorn main:app --host 192.168.100.25 --port 8000
+uvicorn main:app --host  10.1.35.38 --port 8000
+
+uvicorn main:app --reload
+
+pip install fastapi "uvicorn[standard]" yt-dlp slowapi pydantic
+
+pip install fastapi uvicorn yt-dlp slowapi
+
+pip install slowapi pydantic

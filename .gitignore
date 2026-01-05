@@ -1,0 +1,43 @@
+# ---- Virtual environment ----
+venv/
+.env/
+.env.*
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ---- FastAPI / Uvicorn ----
+*.log
+
+# ---- OS files ----
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ---- Editor / IDE ----
+.vscode/
+.idea/
+
+# ---- Temporary / backup files ----
+*.bak
+*.tmp
+*.swp
+
+# ---- Test / coverage ----
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ---- Build artifacts ----
+build/
+dist/
+*.egg-info/

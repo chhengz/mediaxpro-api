@@ -1,0 +1,5 @@
+fastapi
+pydantic
+yt-dlp
+slowapi
+uvicorn[standard]

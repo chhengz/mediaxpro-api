@@ -67,13 +67,11 @@ POST /analyze
 
 ### ⬇️ Stream Download
 
-- **Request**
-
 ```code
 POST /stream
 ```
 
-- **Response**
+**Request**
 
 ```json
 {
@@ -82,6 +80,7 @@ POST /stream
 }
 ```
 
+**Response**
 
 - `video/mp4` stream
 - Merged audio + video

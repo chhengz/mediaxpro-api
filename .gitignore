@@ -36,6 +36,7 @@ Desktop.ini
 .coverage
 htmlcov/
 .pytest_cache/
+tests/
 
 # ---- Build artifacts ----
 build/

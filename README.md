@@ -67,11 +67,13 @@ POST /analyze
 
 ### ⬇️ Stream Download
 
+- **Request**
+
 ```code
 POST /stream
 ```
 
-**Request**
+- **Response**
 
 ```json
 {
@@ -80,7 +82,6 @@ POST /stream
 }
 ```
 
-**Response**
 
 - `video/mp4` stream
 - Merged audio + video
@@ -108,15 +109,11 @@ This prevents:
 - audio-only playback
 - DASH format issues
 
----
-
 ## 🛠️ Requirements
 
 - Python 3.10+
 - yt-dlp installed
 - FFmpeg available in PATH
-
----
 
 ## 🚀 Run Locally
 
@@ -136,11 +133,15 @@ source venv/bin/activate
 
 ### Install dependencies
 
-`pip install -r requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 ### Start server
 
-`uvicorn main:app --host 0.0.0.0 --port 8000`
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 - you can change the ip base on your LAN/IPv4
 - Example: --host 127.0.0.1
